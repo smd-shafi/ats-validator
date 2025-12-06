@@ -6,6 +6,7 @@ import { useNavigate } from "react-router-dom";
 import { ResumeData } from "../../entities/ResumeData.js";
 import Loading from "../Loading/Loading.jsx";
 import ResumeContent from "../ResumeContent/ResumeContent.jsx";
+import cloud from "../../assets/cloud.png";
 
 const Upload = () => {
 
@@ -130,7 +131,7 @@ const Upload = () => {
           onDrop={handleDrop}>
             <div className='drag' style={!isDragging ? { backgroundColor: '#f7f8ff'} : {backgroundColor: '#b9c1fcff'}}>
               <div className="cloud">
-                <img src="../src/assets/cloud.png" alt="" />
+                <img src={cloud} alt="" />
               </div>
             {
               isDragComplete ? (

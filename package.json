@@ -3,13 +3,14 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "scripts": {
-  "start": "react-scripts start",
-  "build": "react-scripts build",
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d build"
-  },
   "homepage": "https://smd-shafi.github.io/ats-validator",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
   "dependencies": {
     "axios": "^1.12.2",
     "lottie-react": "^2.4.1",
@@ -19,6 +20,7 @@
     "react-icons": "^5.5.0",
     "react-lottie-player": "^2.1.0",
     "react-router-dom": "^7.9.4",
+    "react-scripts": "^5.0.1",
     "reacticons": "^0.0.1"
   },
   "devDependencies": {

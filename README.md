@@ -1,6 +1,7 @@
 # 🧠 ATS Validator
 
-A lightweight tool that checks your resume for ATS compatibility and highlights issues that may affect automated screening.
+A lightweight tool that checks your resume for ATS compatibility and highlights issues that may affect automated screening.  
+👉 Try it here: https://smd-shafi.github.io/ats-validator/
 
 ---
 

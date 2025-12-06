@@ -1,0 +1,114 @@
+.upload{
+    max-width: 80vw;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.drag-drop{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.drag{
+    border: 2px dashed #bbb5ff;
+    width: 400px;
+    height: 200px;
+    padding: 30px;
+    border-radius: 8px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.drag img{
+    width: 100px;
+    filter: grayscale(100%);
+}
+
+textarea{
+    width: 400px;
+    height: 150px;
+    padding: 12px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+}
+
+textarea::-webkit-scrollbar {
+    display: none;
+}
+
+textarea:focus{
+    outline-color: #bbb5ff;
+}
+
+.tailoring{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+select{
+    padding: 5px;
+    width: fit-content;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+select:focus{
+    outline-color: #bbb5ff;
+}
+
+.notValid{
+    background-color: rgb(255 225 222);
+    color: rgb(159 87 88);
+    border-radius: 10px;
+    width: fit-content;
+    margin: auto;
+    margin-top: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+.submit{
+    width: fit-content;
+    align-self: center;
+    margin-bottom: 20px;
+    padding: 10px 10px;
+    background-color: #2564e7;
+    border: none;
+    color: white;
+    border-radius: 8px;
+    font-weight: 500;
+}
+
+.loading {
+  position: fixed;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, -50%); 
+  z-index: 9999;
+}
+
+@media screen and (max-width: 1200px) {
+    .drag-drop{
+        flex-direction: column;
+        gap: 30px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .drag, textarea{
+        width: 60vw;
+    }
+}

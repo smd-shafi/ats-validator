@@ -1,0 +1,28 @@
+header{
+    padding: 20px 0px;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.3);
+    z-index: 9999;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    max-width: 80vw;
+    margin: auto;
+}
+
+.ctas ul{
+    display: flex;
+    gap: 20px;
+}
+
+.ctas li{
+    list-style: none;
+}
+
+.ctas a{
+    text-decoration: none;
+}

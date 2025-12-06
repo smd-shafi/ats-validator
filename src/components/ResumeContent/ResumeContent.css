@@ -1,0 +1,130 @@
+.dataContainer{
+    max-width: 80vw;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.notes{
+    text-overflow: clip;
+}
+
+.skills{
+    display: flex;
+    justify-content: space-between;
+    align-self: flex-start;
+}
+
+.skillsContainer{
+    display: flex;
+    width: 40%;
+    gap: 15px;
+    flex-direction: column;
+}
+.skillContent{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: start;
+    gap: 15px;
+}
+
+.progress{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    margin-bottom: 20px;
+}
+
+.progress .rating{
+    align-self: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.skill{
+    height: fit-content;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+
+.match-skill{
+    background-color: rgb(217 250 229);
+    color: rgb(74 128 96);
+    white-space: nowrap;
+}
+
+.miss-skill{
+    background-color: rgb(255 225 222);
+    color: rgb(159 87 88);
+    white-space: nowrap;
+}
+
+.improv{
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #e4ebff ;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+
+.improv table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.improv table tr{
+    display: flex;
+    align-items: flex-start;
+}
+
+.improvHeader{
+    margin-bottom: 10px;
+}
+
+.notes{
+    align-self: flex-start;
+}
+
+@media screen and (max-width: 950px) {
+    .dataContainer{
+        max-width: 90vw;
+    }
+    .skills{
+        flex-direction: column;
+    }
+
+    .skillHeader{
+        font-size: 20px;
+        margin-top: 10px;
+    }
+
+    .skill{
+        font-size: 20px;
+    }
+
+    label, select{
+        align-self: center;
+    }
+
+    .improvHeader{
+        font-size: 20px;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+
+    .skillHeader{
+        margin-top: 10px;
+    }
+    .skill{
+        font-size: 14px;
+    }
+
+    .improvHeader{
+        font-size: 18px;
+        
+    }
+}

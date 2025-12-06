@@ -1,6 +1,6 @@
 # 🧠 ATS Validator
 
-A modern, intuitive tool that helps job seekers validate their resumes against Applicant Tracking Systems (ATS). This project analyzes resume content and highlights areas that may fail automated screening, ensuring better job application success rates.
+A lightweight tool that checks your resume for ATS compatibility and highlights issues that may affect automated screening.
 
 ---
 
